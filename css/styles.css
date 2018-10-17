@@ -10,4 +10,8 @@ h3{
   border-bottom: 1px solid #000;
   text-align: center;
 }
+#fit {
+  width: 200px;
+  height: 200px;
+}
 

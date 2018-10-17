@@ -1,0 +1,31 @@
+#rotate {
+  transform: rotate(45deg); 
+}
+#skew {
+  transform: skew(32deg);
+}
+#all {
+  transform: skewX(48deg);
+  transform: rotateY(72deg)
+  transform: scaleZ(1.8);
+}
+@keyframes kristine {
+  0% {
+    transform: skew(0deg);
+  }
+  25% {
+    transform: rotate(45deg);
+  }
+  50% {
+    transform: skew(55deg);
+  }
+  75% {
+    transform: rotate(45deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.box {
+  animation: kristine 5s infinite;
+}
